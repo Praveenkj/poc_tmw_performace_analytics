@@ -154,8 +154,8 @@ const analyzeHTML = async (html) => {
   }
 
   await includeHTML();
-  await includeImageSize();
-  // await includeAPIResponseTime();
+  // await includeImageSize();
+  await includeAPIResponseTime();
 
   return pageIssues;
 };
