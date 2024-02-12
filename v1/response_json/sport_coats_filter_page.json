@@ -1,0 +1,86 @@
+{
+  "issues": {
+    "urlRedirects": [
+      "https://www.menswearhouse.com/_next/static/chunks/8649.3a8bfce953f8555d.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/4946.6e0e79c17e88f17c.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/webpack-08418dbbe859a129.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/framework-3236775a9ca336a2.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/main-4d60daac17db3c48.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/pages/_app-476acfbd930308c0.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/7485-a779d9dab852337a.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/7918-7b2576df765db899.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/7091-4c309a6528e2e009.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/872-b636670ae422e039.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/7403-ae97d822263d123d.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/3030-e6fb231ed80eeef5.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/44-eb4c395112b850d0.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/9380-d136b7a4fdfb3ec3.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/1589-8b425ba33768188f.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/pages/c/%5BparentCategory%5D/%5B...subCategory%5D-451d034b01057a57.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_buildManifest.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_ssgManifest.js redirected to https://www.menswearhouse.com/page-not-found."
+    ],
+    "HTMLSize": [
+      {
+        "description": "HTML size is larger than 1000 KB. Current size is 1928 KB."
+      }
+    ],
+    "imageSize": [],
+    "urlResponseTime": [
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/8649.3a8bfce953f8555d.js is 836.830806016922 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/4946.6e0e79c17e88f17c.js is 947.19409096241 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/webpack-08418dbbe859a129.js is 835.0379899740219 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/framework-3236775a9ca336a2.js is 797.4587720036507 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/main-4d60daac17db3c48.js is 822.3026880025864 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/pages/_app-476acfbd930308c0.js is 894.1533739566803 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/7485-a779d9dab852337a.js is 873.4525480270386 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/7918-7b2576df765db899.js is 1020.5557199716568 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/7091-4c309a6528e2e009.js is 1097.284027993679 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/872-b636670ae422e039.js is 906.046697974205 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/7403-ae97d822263d123d.js is 915.8379699587822 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/3030-e6fb231ed80eeef5.js is 818.8014509677887 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/44-eb4c395112b850d0.js is 1125.8243470191956 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/9380-d136b7a4fdfb3ec3.js is 861.9505529999733 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/1589-8b425ba33768188f.js is 865.5928649902344 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/pages/c/%5BparentCategory%5D/%5B...subCategory%5D-451d034b01057a57.js is 824.5715939998627 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_buildManifest.js is 1134.3771629929543 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_ssgManifest.js is 1009.513239979744 milliseconds where threshold is set as 500 milliseconds."
+      }
+    ]
+  }
+}

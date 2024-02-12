@@ -44,3 +44,5 @@ Icon?
 
 # macOS directory settings
 .DS_Store?
+
+python/venv

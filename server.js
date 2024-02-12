@@ -21,20 +21,22 @@ const PORT = process.env.PORT || 3001;
 
 app.get("/analyze", async (req, res) => {
   try {
-    const { fileName } = req.query;
+    let html;
+    const { fileName, url, version } = req.query;
 
-    // Fetch HTML content of the provided URL
-    // const response = await axios.get(url);
-    // const html = response.data;
-
-    // Construct the file path
-    const filePath = path.join(
-      __dirname,
-      "html_pages_formatted",
-      "home_page.html"
-    );
-
-    const html = fs.readFileSync(filePath, "utf8");
+    if (fileName) {
+      const filePath = path.join(
+        __dirname,
+        version,
+        "html_pages_formatted",
+        fileName
+      );
+      html = fs.readFileSync(filePath, "utf8");
+      console.log(`HTML read from ${filePath}`);
+    } else if (url) {
+      const response = await fetch(url);
+      html = await response.text();
+    }
 
     // Analyze HTML content for issues
     const issues = await analyzeHTML(html);
@@ -51,7 +53,7 @@ app.get("/analyze", async (req, res) => {
 const analyzeHTML = async (html) => {
   const $ = cheerio.load(html);
 
-  const pageIssues = {};
+  const pageIssues = { urlRedirects: [] };
 
   // Check HTML page size
 
@@ -74,7 +76,7 @@ const analyzeHTML = async (html) => {
     for (const element of $("img")) {
       const imageUrl = $(element).attr("src");
       let imageSize = await getImageSize(imageUrl);
-      console.log(imageUrl, imageSize);
+      // console.log(imageUrl, imageSize);
 
       if (imageSize && imageSize > imageSizeThreshold) {
         let msg;
@@ -132,21 +134,28 @@ const analyzeHTML = async (html) => {
   }
 
   async function measureResponseTime(url) {
+    let issues = [];
     const startTime = performance.now();
-    await fetch(url);
+    const response = await fetch(url, { redirect: "follow" });
     const endTime = performance.now();
+
+    // Check if the response is a redirect
+    if (response.redirected) {
+      pageIssues["urlRedirects"].push(`${url} redirected to ${response.url}.`);
+    }
+
     return endTime - startTime;
   }
 
   async function includeAPIResponseTime() {
     let issues = [];
     urlList = await getURLList();
-    console.log("urlList: ", urlList); // in milli seconds
+    // console.log("urlList: ", urlList); // in milli seconds
     for (let url of urlList) {
       const responseTime = await measureResponseTime(url);
       if (responseTime && responseTime > urlResponseTimeThreshold) {
         issues.push({
-          description: `Response time for ${url} is ${responseTime} milliseconds where threshold should be ${urlResponseTimeThreshold}.`,
+          description: `Response time for ${url} is ${responseTime} milliseconds where threshold is set as ${urlResponseTimeThreshold} milliseconds.`,
         });
       }
     }
@@ -154,7 +163,7 @@ const analyzeHTML = async (html) => {
   }
 
   await includeHTML();
-  // await includeImageSize();
+  await includeImageSize();
   await includeAPIResponseTime();
 
   return pageIssues;

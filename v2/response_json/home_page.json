@@ -1,0 +1,35 @@
+{
+  "issues": {
+    "urlRedirects": [],
+    "imageSize": [
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_3WET_94_WILKE_RODRIGUEZ_NAVY_TIC_MAIN is 10469 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_6MRU_14_JOSEPH_ABBOUD_MED_BLUE_MAIN is 12734 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_15YY_02_PRONTO_UOMO_BLACK_MAIN is 12551 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_59T0_51_JOSEPH_ABBOUD_BLUE_MAIN is 16557 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_23X6_44_HAGGAR_GREY_SET is 10148 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_40X6_02_FLORSHEIM_BLACK_MAIN is 9933 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/TMW_88PA_15_PRONTO_UOMO_TIES_APPLE_MAIN is 3715 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_368F_10_VERA_WANG_BLACK_FORMAL_MAIN is 5301 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/marketing/24-4039403-prom-v2-desktop-2x.jpg is 669 KB. Max size can be 500 KB."
+      }
+    ],
+    "urlResponseTime": []
+  }
+}

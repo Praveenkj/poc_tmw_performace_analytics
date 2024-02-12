@@ -1,0 +1,16 @@
+{
+  "issues": {
+    "urlRedirects": [],
+    "HTMLSize": [
+      {
+        "description": "HTML size is larger than 1000 KB. Current size is 11594 KB."
+      }
+    ],
+    "imageSize": [],
+    "urlResponseTime": [
+      {
+        "description": "Response time for https://www.menswearhouse.com/DigitalWalletCheckoutTB_min.js is 760.823657989502 milliseconds where threshold is set as 500 milliseconds."
+      }
+    ]
+  }
+}

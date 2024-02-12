@@ -1,0 +1,73 @@
+{
+  "issues": {
+    "urlRedirects": [
+      "https://www.menswearhouse.com/_next/static/chunks/8649.3a8bfce953f8555d.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/4946.6e0e79c17e88f17c.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/webpack-08418dbbe859a129.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/framework-3236775a9ca336a2.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/main-4d60daac17db3c48.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/pages/_app-476acfbd930308c0.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/chunks/pages/index-69cff6109f5fea9f.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_buildManifest.js redirected to https://www.menswearhouse.com/page-not-found.",
+      "https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_ssgManifest.js redirected to https://www.menswearhouse.com/page-not-found."
+    ],
+    "imageSize": [
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_3WET_94_WILKE_RODRIGUEZ_NAVY_TIC_MAIN is 10469 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_6MRU_14_JOSEPH_ABBOUD_MED_BLUE_MAIN is 12734 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_15YY_02_PRONTO_UOMO_BLACK_MAIN is 12551 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_59T0_51_JOSEPH_ABBOUD_BLUE_MAIN is 16557 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_23X6_44_HAGGAR_GREY_SET is 10148 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_40X6_02_FLORSHEIM_BLACK_MAIN is 9933 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/TMW_88PA_15_PRONTO_UOMO_TIES_APPLE_MAIN is 3715 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/TMW/MW40_368F_10_VERA_WANG_BLACK_FORMAL_MAIN is 5301 KB. Max size can be 500 KB."
+      },
+      {
+        "description": "Image at https://image.menswearhouse.com/is/image/marketing/24-4011886-prom-2x.jpg is 523 KB. Max size can be 500 KB."
+      }
+    ],
+    "urlResponseTime": [
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/8649.3a8bfce953f8555d.js is 804.2380419969559 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/4946.6e0e79c17e88f17c.js is 832.779264986515 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/webpack-08418dbbe859a129.js is 905.2571140527725 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/framework-3236775a9ca336a2.js is 1026.3604710102081 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/main-4d60daac17db3c48.js is 817.5497180223465 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/pages/_app-476acfbd930308c0.js is 920.9759359955788 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/chunks/pages/index-69cff6109f5fea9f.js is 922.1110770106316 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_buildManifest.js is 819.6981179714203 milliseconds where threshold is set as 500 milliseconds."
+      },
+      {
+        "description": "Response time for https://www.menswearhouse.com/_next/static/n65s_iiYDFNIfkZ4ncSBD/_ssgManifest.js is 874.4783480167389 milliseconds where threshold is set as 500 milliseconds."
+      }
+    ]
+  }
+}
